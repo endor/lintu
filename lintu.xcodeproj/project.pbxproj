@@ -30,6 +30,7 @@
 		A77D809116B177240018BED1 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D808716B177240018BED1 /* AFXMLRequestOperation.m */; };
 		A77D809216B177240018BED1 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D808916B177240018BED1 /* UIImageView+AFNetworking.m */; };
 		A77D809916B19F180018BED1 /* TorrentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D809816B19F180018BED1 /* TorrentCell.m */; };
+                C51A948716B28E9900C16AA2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51A948616B28E9900C16AA2 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,8 @@
 		A77D808916B177240018BED1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		A77D809716B19F180018BED1 /* TorrentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentCell.h; sourceTree = "<group>"; };
 		A77D809816B19F180018BED1 /* TorrentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentCell.m; sourceTree = "<group>"; };
+                C51A948516B28E9900C16AA2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+                C51A948616B28E9900C16AA2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				A77D805716B13E4B0018BED1 /* AppDelegate.h */,
 				A77D805816B13E4B0018BED1 /* AppDelegate.m */,
 				A77D806016B13E4B0018BED1 /* MainStoryboard.storyboard */,
+                                C51A948516B28E9900C16AA2 /* DetailViewController.h */,
+                                C51A948616B28E9900C16AA2 /* DetailViewController.m */,
 				A77D806316B13E4B0018BED1 /* ViewController.h */,
 				A77D806416B13E4B0018BED1 /* ViewController.m */,
 				A77D804F16B13E4B0018BED1 /* Supporting Files */,
@@ -266,6 +271,7 @@
 				A77D809116B177240018BED1 /* AFXMLRequestOperation.m in Sources */,
 				A77D809216B177240018BED1 /* UIImageView+AFNetworking.m in Sources */,
 				A77D809916B19F180018BED1 /* TorrentCell.m in Sources */,
+                                C51A948716B28E9900C16AA2 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +388,7 @@
 				A77D806A16B13E4B0018BED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+                        defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

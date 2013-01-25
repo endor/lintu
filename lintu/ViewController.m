@@ -11,6 +11,7 @@
 #import "Torrent.h"
 #import "AFJSONRequestOperation.h"
 #import "TorrentCell.h"
+#import "DetailViewController.h"
 
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -69,8 +70,26 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+
+//    DetailViewController* detail = [[DetailViewController alloc] initWithNibName:@"DetailView" bundle:[NSBundle mainBundle]];
+
+//	[self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"detailController"] animated:YES];
+        //[detail.name setText: [self.torrents objectAtIndex:indexPath.row]];
 }
 
+
+#pragma  mark - Segues
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+        NSInteger row = [self.torrentTableView indexPathForCell:sender].row;
+
+        if ([segue.destinationViewController isKindOfClass:[DetailViewController class]])
+        {
+                Torrent* torrent = self.torrents[row];
+                DetailViewController* dv = (DetailViewController*)segue.destinationViewController;
+                dv.torrent = torrent;
+        }
+}
 
 @end
