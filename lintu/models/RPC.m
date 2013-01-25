@@ -23,7 +23,7 @@
 
 - (void)getTorrents:(void (^)(NSArray *))getTorrentsCallback
 {
-    NSDictionary *requestData = @{@"method": @"torrent-get", @"arguments": @{@"fields": @[@"id", @"name"]}};
+    NSDictionary *requestData = @{@"method": @"torrent-get", @"arguments": @{@"fields": [Torrent getFields]}};
     [self makeRequest:requestData success:^(NSDictionary *JSON) {
         NSArray *torrentData = JSON[@"arguments"][@"torrents"];
         NSMutableArray *torrents = [[NSMutableArray alloc] init];

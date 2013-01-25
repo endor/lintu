@@ -13,6 +13,9 @@
 @property(nonatomic) int identifier;
 @property(nonatomic, retain) NSString *name;
 
+- (NSString *)getProgressDetails;
+- (float)getProgress;
 - (id)init:(NSDictionary *)dict;
++ (NSArray *)getFields;
 
 @end

@@ -10,6 +10,7 @@
 #import "RPC.h"
 #import "Torrent.h"
 #import "AFJSONRequestOperation.h"
+#import "TorrentCell.h"
 
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -55,9 +56,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"torrentCell"];
+    TorrentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"torrentCell"];
     Torrent *torrent = [self.torrents objectAtIndex:indexPath.row];
-    cell.textLabel.text = torrent.name;
+    cell.name.text = torrent.name;
+    cell.progressDetails.text = [torrent getProgressDetails];
+    cell.progressBar.progress = [torrent getProgress];
     return cell;
 }
 

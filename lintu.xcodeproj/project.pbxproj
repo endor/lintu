@@ -29,6 +29,7 @@
 		A77D809016B177240018BED1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D808516B177240018BED1 /* AFURLConnectionOperation.m */; };
 		A77D809116B177240018BED1 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D808716B177240018BED1 /* AFXMLRequestOperation.m */; };
 		A77D809216B177240018BED1 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D808916B177240018BED1 /* UIImageView+AFNetworking.m */; };
+		A77D809916B19F180018BED1 /* TorrentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77D809816B19F180018BED1 /* TorrentCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		A77D808716B177240018BED1 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		A77D808816B177240018BED1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		A77D808916B177240018BED1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A77D809716B19F180018BED1 /* TorrentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentCell.h; sourceTree = "<group>"; };
+		A77D809816B19F180018BED1 /* TorrentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				A77D806316B13E4B0018BED1 /* ViewController.h */,
 				A77D806416B13E4B0018BED1 /* ViewController.m */,
 				A77D804F16B13E4B0018BED1 /* Supporting Files */,
+				A77D809716B19F180018BED1 /* TorrentCell.h */,
+				A77D809816B19F180018BED1 /* TorrentCell.m */,
 			);
 			path = lintu;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				A77D809016B177240018BED1 /* AFURLConnectionOperation.m in Sources */,
 				A77D809116B177240018BED1 /* AFXMLRequestOperation.m in Sources */,
 				A77D809216B177240018BED1 /* UIImageView+AFNetworking.m in Sources */,
+				A77D809916B19F180018BED1 /* TorrentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
