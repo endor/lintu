@@ -30,11 +30,14 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Progress" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQk-eV-53g">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="82" translatesAutoresizingMaskIntoConstraints="NO" id="lQk-eV-53g">
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="95" id="0kY-BJ-i56"/>
+                                                        <constraint firstAttribute="width" constant="82" id="A3k-0d-sWR"/>
+                                                        <constraint firstAttribute="height" constant="47" id="z1Z-f3-ElC"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <string key="text">UL: 100KB/s
+DL: 100KB/s</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
@@ -48,12 +51,11 @@
                                         </view>
                                         <constraints>
                                             <constraint firstItem="VcD-0b-kkx" firstAttribute="top" secondItem="A1K-yH-GYi" secondAttribute="top" constant="2" id="0aY-hX-O05"/>
-                                            <constraint firstItem="NGq-XL-d8P" firstAttribute="top" secondItem="lQk-eV-53g" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="3FE-yE-Kws"/>
                                             <constraint firstItem="NGq-XL-d8P" firstAttribute="leading" secondItem="VcD-0b-kkx" secondAttribute="leading" type="default" id="NbV-dR-eDK"/>
                                             <constraint firstItem="NGq-XL-d8P" firstAttribute="top" secondItem="VcD-0b-kkx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Oq3-Ag-w3G"/>
                                             <constraint firstAttribute="trailing" secondItem="NGq-XL-d8P" secondAttribute="trailing" constant="20" type="default" id="S3d-mJ-y31"/>
-                                            <constraint firstAttribute="trailing" secondItem="lQk-eV-53g" secondAttribute="trailing" constant="20" type="default" id="WlP-LQ-fpV"/>
-                                            <constraint firstItem="lQk-eV-53g" firstAttribute="top" secondItem="VcD-0b-kkx" secondAttribute="top" type="default" id="yJW-aD-SDT"/>
+                                            <constraint firstItem="lQk-eV-53g" firstAttribute="leading" secondItem="A1K-yH-GYi" secondAttribute="leading" constant="229" id="hLI-oi-w7r"/>
+                                            <constraint firstItem="lQk-eV-53g" firstAttribute="top" secondItem="A1K-yH-GYi" secondAttribute="top" constant="-9" id="obG-xA-Vke"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="name" destination="VcD-0b-kkx" id="ec3-lv-5FO"/>

@@ -12,13 +12,13 @@
 
 @property(nonatomic) NSString *status;
 @property(nonatomic) NSString *eta;
-@property(atomic) float totalSize;
-@property(atomic) float sizeWhenDone;
-@property(atomic) float leftUntilDone;
-@property(atomic) float uploadedEver;
-@property(atomic) float rateDownload;
-@property(atomic) float rateUpload;
-@property(atomic) float downloadedEver;
+@property(atomic) NSInteger totalSize;
+@property(atomic) NSInteger sizeWhenDone;
+@property(atomic) NSInteger leftUntilDone;
+@property(atomic) NSInteger uploadedEver;
+@property(atomic) NSInteger rateDownload;
+@property(atomic) NSInteger rateUpload;
+@property(atomic) NSInteger downloadedEver;
 
 @end
 
@@ -31,13 +31,13 @@
         self.name = dict[@"name"];
         self.eta = dict[@"eta"];
         self.status = dict[@"status"];
-        self.totalSize = (float)(int)dict[@"totalSize"];
-        self.sizeWhenDone = (float)(int)dict[@"sizeWhenDone"];
-        self.leftUntilDone = (float)(int)dict[@"leftUntilDone"];
-        self.uploadedEver = (float)(int)dict[@"uploadedEver"];
-        self.downloadedEver = (float)(int)dict[@"downloadedEver"];
-        self.rateUpload = (float)(int)dict[@"rateUpload"];
-        self.rateDownload = (float)(int)dict[@"rateDownload"];
+        self.totalSize = [[dict objectForKey:@"totalSize"] integerValue];
+        self.sizeWhenDone = [[dict objectForKey:@"sizeWhenDone"] integerValue];
+        self.leftUntilDone = [[dict objectForKey:@"leftUntilDone"] integerValue];
+        self.uploadedEver = [[dict objectForKey:@"uploadedEver"] integerValue];
+        self.downloadedEver = [[dict objectForKey:@"downloadedEver"] integerValue];
+        self.rateUpload = [[dict objectForKey:@"rateUpload"] integerValue];
+        self.rateDownload = [[dict objectForKey:@"rateDownload"] integerValue];
     }
     
     return self;
@@ -50,18 +50,18 @@
 
 - (NSString *)getProgressDetails
 {
-    return @"UL:, DL: ";
+    return [NSString stringWithFormat:@"UL: %.02f KB/s\nDL: %.02f KB/s", ((float)[self rateUpload] / 1000), ((float)[self rateDownload] / 1000)];
 }
 
 - (float)getProgress
 {
-    if([self sizeWhenDone] == 0)
+    if([self sizeWhenDone] == 0.0)
     {
         return 0.0;
     }
     
-    float notDoneYet = [self sizeWhenDone] - [self leftUntilDone];
-    return ((notDoneYet / [self sizeWhenDone]) * 10000) / 100;
+    NSInteger notDoneYet = [self sizeWhenDone] - [self leftUntilDone];
+    return (float)notDoneYet / (float)[self sizeWhenDone];
 }
 
 @end
