@@ -19,6 +19,7 @@
 @property(nonatomic, retain) NSArray *torrents;
 @property(nonatomic, retain) IBOutlet UITableView *torrentTableView;
 @property(nonatomic, assign) NSString *sessionId;
+@property(nonatomic) RPC *rpc;
 
 @end
 
@@ -34,8 +35,15 @@
 {
     [super viewDidAppear:animated];
 
-    RPC *rpc = [[RPC alloc] init];
-    [rpc getTorrents:^(NSArray *torrents) {
+    self.rpc = [[RPC alloc] init];
+   
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(getTorrents) userInfo:nil repeats:YES];
+    
+}
+
+- (void)getTorrents
+{
+    [self.rpc getTorrents:^(NSArray *torrents) {
         self.torrents = torrents;
         [self.torrentTableView reloadData];
     }];
@@ -62,6 +70,7 @@
     cell.name.text = torrent.name;
     cell.progressDetails.text = [torrent getProgressDetails];
     cell.progressBar.progress = [torrent getProgress];
+    cell.progressBar.progressTintColor = [torrent statusColor];
     return cell;
 }
 

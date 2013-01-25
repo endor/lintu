@@ -15,6 +15,7 @@
 
 - (NSString *)getProgressDetails;
 - (float)getProgress;
+- (UIColor *)statusColor;
 - (id)init:(NSDictionary *)dict;
 + (NSArray *)getFields;
 

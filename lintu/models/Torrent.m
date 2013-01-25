@@ -10,7 +10,7 @@
 
 @interface Torrent ()
 
-@property(nonatomic) NSString *status;
+@property(nonatomic) NSInteger status;
 @property(nonatomic) NSString *eta;
 @property(atomic) NSInteger totalSize;
 @property(atomic) NSInteger sizeWhenDone;
@@ -30,7 +30,7 @@
         self.identifier = (int)dict[@"id"];
         self.name = dict[@"name"];
         self.eta = dict[@"eta"];
-        self.status = dict[@"status"];
+        self.status = [[dict objectForKey:@"status"] integerValue];
         self.totalSize = [[dict objectForKey:@"totalSize"] integerValue];
         self.sizeWhenDone = [[dict objectForKey:@"sizeWhenDone"] integerValue];
         self.leftUntilDone = [[dict objectForKey:@"leftUntilDone"] integerValue];
@@ -62,6 +62,21 @@
     
     NSInteger notDoneYet = [self sizeWhenDone] - [self leftUntilDone];
     return (float)notDoneYet / (float)[self sizeWhenDone];
+}
+
+- (UIColor *)statusColor
+{
+    NSArray *colors = @[
+        [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0],
+        [UIColor colorWithRed:1.0 green:1.0 blue:0.0 alpha:0.5],
+        [UIColor colorWithRed:1.0 green:1.0 blue:0.0 alpha:1.0],
+        [UIColor colorWithRed:0.0 green:0.0 blue:1.0 alpha:0.5],
+        [UIColor colorWithRed:0.0 green:0.0 blue:1.0 alpha:1.0],
+        [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:0.5],
+        [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:1.0]
+    ];
+    
+    return colors[[self status]];
 }
 
 @end
