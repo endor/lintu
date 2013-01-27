@@ -10,7 +10,9 @@
 
 @interface DetailViewController ()
 
-@property(nonatomic, weak)IBOutlet UILabel* label;
+@property(nonatomic, weak) IBOutlet UILabel* label;
+@property(nonatomic) IBOutlet UIToolbar *toolbar;
+@property(nonatomic) IBOutlet UIBarButtonItem *pauseButton;
 
 @end
 
@@ -28,9 +30,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-        // Do any additional setup after loading the view.
-        NSLog(@"torrent: %@", self.torrent);
-        [self.label setText: self.torrent.name];
+    [self.label setText: self.torrent.name];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+
+    if([[self torrent] isActive])
+    {
+        [self pauseButton].title = @"Pause";
+    } else {
+        [self pauseButton].title = @"Resume";
+    }
 }
 
 - (void)didReceiveMemoryWarning

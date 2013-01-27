@@ -18,7 +18,7 @@
 
 @property(nonatomic, retain) NSArray *torrents;
 @property(nonatomic, retain) IBOutlet UITableView *torrentTableView;
-@property(nonatomic, assign) NSString *sessionId;
+@property(nonatomic) NSString *sessionId;
 @property(nonatomic) RPC *rpc;
 
 @end
@@ -101,4 +101,9 @@
         }
 }
 
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        //add code here for when you hit delete
+    }
+}
 @end

@@ -24,7 +24,7 @@
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcD-0b-kkx">
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="181" id="U07-IL-QkG"/>
+                                                        <constraint firstAttribute="width" constant="194" id="pNy-9D-QF3"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -50,8 +50,8 @@ DL: 100KB/s</string>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
+                                            <constraint firstItem="lQk-eV-53g" firstAttribute="leading" secondItem="VcD-0b-kkx" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="05a-B2-DuJ"/>
                                             <constraint firstItem="VcD-0b-kkx" firstAttribute="top" secondItem="A1K-yH-GYi" secondAttribute="top" constant="2" id="0aY-hX-O05"/>
-                                            <constraint firstItem="lQk-eV-53g" firstAttribute="leading" secondItem="A1K-yH-GYi" secondAttribute="leading" constant="213" id="9rL-lt-dKe"/>
                                             <constraint firstItem="NGq-XL-d8P" firstAttribute="leading" secondItem="VcD-0b-kkx" secondAttribute="leading" type="default" id="NbV-dR-eDK"/>
                                             <constraint firstItem="NGq-XL-d8P" firstAttribute="top" secondItem="VcD-0b-kkx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Oq3-Ag-w3G"/>
                                             <constraint firstAttribute="trailing" secondItem="NGq-XL-d8P" secondAttribute="trailing" constant="20" type="default" id="S3d-mJ-y31"/>
@@ -104,16 +104,28 @@ DL: 100KB/s</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7z-lc-b0O">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="353" id="uIR-9X-A28"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Pause" id="SWY-qI-9kv"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="M7z-lc-b0O" firstAttribute="bottom" secondItem="mgh-9s-5LF" secondAttribute="bottom" type="default" id="KS5-3U-yh7"/>
                             <constraint firstItem="WoX-EI-qgb" firstAttribute="top" secondItem="mgh-9s-5LF" secondAttribute="top" constant="26" id="Uln-QG-7yD"/>
                             <constraint firstItem="WoX-EI-qgb" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" type="default" id="Y0d-Un-IFn"/>
+                            <constraint firstItem="M7z-lc-b0O" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" type="default" id="tSz-L0-x6L"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="c0q-bT-kpE"/>
                     <connections>
                         <outlet property="label" destination="WoX-EI-qgb" id="HdK-wJ-nZX"/>
+                        <outlet property="pauseButton" destination="SWY-qI-9kv" id="9ag-Tf-hOy"/>
+                        <outlet property="toolbar" destination="M7z-lc-b0O" id="0rp-NC-BcK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wqC-8z-DOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -144,6 +156,8 @@ DL: 100KB/s</string>
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="pauseButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

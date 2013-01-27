@@ -12,13 +12,13 @@
 
 @property(nonatomic) NSInteger status;
 @property(nonatomic) NSString *eta;
-@property(atomic) NSInteger totalSize;
-@property(atomic) NSInteger sizeWhenDone;
-@property(atomic) NSInteger leftUntilDone;
-@property(atomic) NSInteger uploadedEver;
-@property(atomic) NSInteger rateDownload;
-@property(atomic) NSInteger rateUpload;
-@property(atomic) NSInteger downloadedEver;
+@property(nonatomic) NSInteger totalSize;
+@property(nonatomic) NSInteger sizeWhenDone;
+@property(nonatomic) NSInteger leftUntilDone;
+@property(nonatomic) NSInteger uploadedEver;
+@property(nonatomic) NSInteger rateDownload;
+@property(nonatomic) NSInteger rateUpload;
+@property(nonatomic) NSInteger downloadedEver;
 
 @end
 
@@ -62,6 +62,11 @@
     
     NSInteger notDoneYet = [self sizeWhenDone] - [self leftUntilDone];
     return (float)notDoneYet / (float)[self sizeWhenDone];
+}
+
+- (Boolean)isActive
+{
+    return ([self status] == 4 || [self status] == 6);
 }
 
 - (UIColor *)statusColor
