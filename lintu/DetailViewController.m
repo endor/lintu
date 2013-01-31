@@ -13,6 +13,8 @@
 
 @property(nonatomic) IBOutlet UIToolbar *toolbar;
 @property(nonatomic) IBOutlet UIBarButtonItem *pauseButton;
+@property(nonatomic) IBOutlet UIBarButtonItem *verifyButton;
+@property(nonatomic) IBOutlet UIBarButtonItem *askForMorePeersButton;
 @property(nonatomic) RPC *rpc;
 @property(nonatomic) NSTimer *timer;
 
@@ -50,6 +52,12 @@
     if(!self.timer) {
         self.timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(updateTorrent) userInfo:nil repeats:YES];
     }
+    
+    UIFont *font = [UIFont boldSystemFontOfSize:14.0f];
+    NSDictionary *attributes = [NSDictionary dictionaryWithObject:font
+                                                           forKey:UITextAttributeFont];
+    [[self tabs] setTitleTextAttributes:attributes
+                                    forState:UIControlStateNormal];
 }
 
 - (void)updateTorrent
@@ -116,5 +124,38 @@
     [self.rpc reannounceTorrent:[self torrent]];
 }
 
+- (IBAction)segmentSwitch
+{
+    NSInteger selectedSegment = [self tabs].selectedSegmentIndex;
+
+    [self info].hidden = YES;
+    [self peers].hidden = YES;
+    [self trackers].hidden = YES;
+    [self files].hidden = YES;
+
+    NSArray *tabs = @[[self info], [self peers], [self trackers], [self files]];
+    ((UIView *)tabs[selectedSegment]).hidden = NO;
+
+    if(selectedSegment == 0)
+    {
+        [self enableButtons];
+    } else {
+        [self disableButtons];
+    }
+}
+
+- (void) enableButtons
+{
+    [[self verifyButton] setEnabled:YES];
+    [[self pauseButton] setEnabled:YES];
+    [[self askForMorePeersButton] setEnabled:YES];
+}
+
+- (void) disableButtons
+{
+    [[self verifyButton] setEnabled:NO];
+    [[self pauseButton] setEnabled:NO];
+    [[self askForMorePeersButton] setEnabled:NO];
+}
 
 @end

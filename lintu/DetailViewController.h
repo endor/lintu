@@ -16,9 +16,15 @@
 @property(nonatomic, strong) IBOutlet UILabel *speedDetails;
 @property(nonatomic, strong) IBOutlet UILabel *progressDetails;
 @property(nonatomic, strong) IBOutlet UILabel *status;
+@property(nonatomic, strong) IBOutlet UISegmentedControl *tabs;
+@property(nonatomic, strong) IBOutlet UIView *info;
+@property(nonatomic, strong) IBOutlet UIView *peers;
+@property(nonatomic, strong) IBOutlet UIView *trackers;
+@property(nonatomic, strong) IBOutlet UIView *files;
 
 - (IBAction)pauseOrResumeGame;
 - (IBAction)verify;
 - (IBAction)askForMorePeers;
+- (IBAction)segmentSwitch;
 
 @end
