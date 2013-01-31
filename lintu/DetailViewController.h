@@ -12,6 +12,9 @@
 @interface DetailViewController : UIViewController
 
 @property(nonatomic, strong) Torrent* torrent;
+@property(nonatomic, strong) IBOutlet UIProgressView *progressBar;
+@property(nonatomic, strong) IBOutlet UILabel *speedDetails;
+@property(nonatomic, strong) IBOutlet UILabel *progressDetails;
 
 - (IBAction)pauseOrResumeGame;
 

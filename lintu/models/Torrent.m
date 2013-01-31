@@ -7,6 +7,7 @@
 //
 
 #import "Torrent.h"
+#import "Math.h"
 
 @interface Torrent ()
 
@@ -48,10 +49,16 @@
     return @[@"id", @"name", @"status", @"totalSize", @"sizeWhenDone", @"leftUntilDone", @"eta", @"uploadedEver", @"rateDownload", @"rateUpload", @"downloadedEver"];
 }
 
+- (NSString *)getSpeedDetails
+{
+    return [NSString stringWithFormat:@"UL: %@/s\nDL: %@/s", [Math formatBytes:[self rateUpload]], [Math formatBytes:[self rateDownload]]];
+}
+
 - (NSString *)getProgressDetails
 {
-    return [NSString stringWithFormat:@"UL: %.02f KB/s\nDL: %.02f KB/s", ((float)[self rateUpload] / 1000), ((float)[self rateDownload] / 1000)];
+    return [NSString stringWithFormat:@"Uploaded: %@\nDownloaded: %@", [Math formatBytes:[self uploadedEver]], [Math formatBytes:[self downloadedEver]]];
 }
+
 
 - (float)getProgress
 {

@@ -13,6 +13,7 @@
 @property(nonatomic) NSInteger identifier;
 @property(nonatomic) NSString *name;
 
+- (NSString *)getSpeedDetails;
 - (NSString *)getProgressDetails;
 - (float)getProgress;
 - (UIColor *)statusColor;

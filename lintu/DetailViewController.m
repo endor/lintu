@@ -11,10 +11,10 @@
 
 @interface DetailViewController ()
 
-@property(nonatomic, weak) IBOutlet UILabel* label;
 @property(nonatomic) IBOutlet UIToolbar *toolbar;
 @property(nonatomic) IBOutlet UIBarButtonItem *pauseButton;
 @property(nonatomic) RPC *rpc;
+@property(nonatomic) NSTimer *timer;
 
 @end
 
@@ -32,17 +32,35 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.label setText: self.torrent.name];
     self.rpc = [RPC sharedInstance];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+    [self.timer invalidate];
+    self.timer = nil;
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self updateButtons];
+    [self updateViewElements];
+    self.navigationItem.title = [[self torrent] name];
+    
+    if(!self.timer) {
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(updateTorrent) userInfo:nil repeats:YES];
+    }
 }
 
-- (void)updateButtons
+- (void)updateTorrent
+{
+    [self.rpc retrieveTorrent:[self torrent].identifier success:^(Torrent *torrent) {
+        self.torrent = torrent;
+        [self updateViewElements];
+    }];
+}
+
+- (void)updateViewElements
 {
     if([[self torrent] isActive])
     {
@@ -50,6 +68,11 @@
     } else {
         [self pauseButton].title = @"Resume";
     }
+    
+    [self speedDetails].text = [[self torrent] getSpeedDetails];
+    [self progressDetails].text = [[self torrent] getProgressDetails];
+    [self progressBar].progress = [[self torrent] getProgress];
+    [self progressBar].progressTintColor = [[self torrent] statusColor];
 }
 
 - (void)didReceiveMemoryWarning
@@ -62,7 +85,7 @@
 {
     void (^callback)(Torrent *) = ^(Torrent *torrent) {
         self.torrent = torrent;
-        [self updateButtons];
+        [self updateViewElements];
     };
     
     if([[self torrent] isActive])

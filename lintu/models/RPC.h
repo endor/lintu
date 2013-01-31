@@ -14,6 +14,7 @@
 - (void)getTorrents:(void (^)(NSArray *))success;
 - (void)pauseTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))success;
 - (void)resumeTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))success;
+- (void)retrieveTorrent:(NSInteger)identifier success:(void (^)(Torrent *torrent))retrieveTorrentCallback;
 
 + (RPC *)sharedInstance;
 

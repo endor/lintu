@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7294BCA16BA9BA40086BD59 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = A7294BC916BA9BA40086BD59 /* Math.m */; };
 		A77D804916B13E4A0018BED1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D804816B13E4A0018BED1 /* UIKit.framework */; };
 		A77D804B16B13E4A0018BED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D804A16B13E4A0018BED1 /* Foundation.framework */; };
 		A77D804D16B13E4A0018BED1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D804C16B13E4A0018BED1 /* CoreGraphics.framework */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7294BC816BA9BA40086BD59 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		A7294BC916BA9BA40086BD59 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
 		A77D804416B13E4A0018BED1 /* lintu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77D804816B13E4A0018BED1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A77D804A16B13E4A0018BED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 				A77D807316B160C40018BED1 /* RPC.h */,
 				A77D807416B160C40018BED1 /* RPC.m */,
 				A77D807616B177240018BED1 /* AFNetworking */,
+				A7294BC816BA9BA40086BD59 /* Math.h */,
+				A7294BC916BA9BA40086BD59 /* Math.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 				A77D809216B177240018BED1 /* UIImageView+AFNetworking.m in Sources */,
 				A77D809916B19F180018BED1 /* TorrentCell.m in Sources */,
 				C51A948716B28E9900C16AA2 /* DetailViewController.m in Sources */,
+				A7294BCA16BA9BA40086BD59 /* Math.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

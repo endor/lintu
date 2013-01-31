@@ -66,7 +66,7 @@
     TorrentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"torrentCell"];
     Torrent *torrent = [self.torrents objectAtIndex:indexPath.row];
     cell.name.text = torrent.name;
-    cell.progressDetails.text = [torrent getProgressDetails];
+    cell.speedDetails.text = [torrent getSpeedDetails];
     cell.progressBar.progress = [torrent getProgress];
     cell.progressBar.progressTintColor = [torrent statusColor];
     return cell;

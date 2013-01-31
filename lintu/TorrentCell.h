@@ -12,6 +12,6 @@
 
 @property(nonatomic, strong) IBOutlet UIProgressView *progressBar;
 @property(nonatomic, strong) IBOutlet UILabel *name;
-@property(nonatomic, strong) IBOutlet UILabel *progressDetails;
+@property(nonatomic, strong) IBOutlet UILabel *speedDetails;
 
 @end

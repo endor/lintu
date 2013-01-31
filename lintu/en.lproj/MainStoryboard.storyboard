@@ -60,7 +60,7 @@ DL: 100KB/s</string>
                                         <connections>
                                             <outlet property="name" destination="VcD-0b-kkx" id="ec3-lv-5FO"/>
                                             <outlet property="progressBar" destination="NGq-XL-d8P" id="8Ac-vQ-442"/>
-                                            <outlet property="progressDetails" destination="lQk-eV-53g" id="dP2-xU-1Th"/>
+                                            <outlet property="speedDetails" destination="lQk-eV-53g" id="o6q-MP-iDp"/>
                                             <segue destination="YAt-0K-xj9" kind="push" id="PwE-LM-qJ9"/>
                                         </connections>
                                     </tableViewCell>
@@ -96,14 +96,6 @@ DL: 100KB/s</string>
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoX-EI-qgb">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="218" id="ccI-iB-ITi"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7z-lc-b0O">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="353" id="uIR-9X-A28"/>
@@ -116,19 +108,49 @@ DL: 100KB/s</string>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EC9-9Q-ryb"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="88" translatesAutoresizingMaskIntoConstraints="NO" id="NE1-5Q-OTb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="bUc-q5-XaU"/>
+                                    <constraint firstAttribute="width" constant="88" id="lPa-iX-qaq"/>
+                                </constraints>
+                                <string key="text">UL: 100KB/s
+DL: 100KB/s</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="168" translatesAutoresizingMaskIntoConstraints="NO" id="HXB-fK-S53">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="qJe-0Y-e4A"/>
+                                </constraints>
+                                <string key="text">Uploaded: 100KB/s
+Downloaded: 100KB/s</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="NE1-5Q-OTb" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1w5-Fm-XYc"/>
+                            <constraint firstItem="HXB-fK-S53" firstAttribute="top" secondItem="NE1-5Q-OTb" secondAttribute="top" type="default" id="EqF-BM-wbV"/>
                             <constraint firstItem="M7z-lc-b0O" firstAttribute="bottom" secondItem="mgh-9s-5LF" secondAttribute="bottom" type="default" id="KS5-3U-yh7"/>
-                            <constraint firstItem="WoX-EI-qgb" firstAttribute="top" secondItem="mgh-9s-5LF" secondAttribute="top" constant="26" id="Uln-QG-7yD"/>
-                            <constraint firstItem="WoX-EI-qgb" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" type="default" id="Y0d-Un-IFn"/>
+                            <constraint firstItem="EC9-9Q-ryb" firstAttribute="top" secondItem="mgh-9s-5LF" secondAttribute="top" constant="38" id="LzM-HU-bgf"/>
+                            <constraint firstItem="NE1-5Q-OTb" firstAttribute="top" secondItem="mgh-9s-5LF" secondAttribute="top" constant="-4" id="OOs-v4-xPN"/>
+                            <constraint firstItem="EC9-9Q-ryb" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="b8g-sh-9oi"/>
+                            <constraint firstItem="HXB-fK-S53" firstAttribute="baseline" secondItem="NE1-5Q-OTb" secondAttribute="baseline" type="default" id="nHF-cS-LuB"/>
+                            <constraint firstAttribute="trailing" secondItem="EC9-9Q-ryb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rv1-wz-weC"/>
                             <constraint firstItem="M7z-lc-b0O" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" type="default" id="tSz-L0-x6L"/>
+                            <constraint firstAttribute="trailing" secondItem="HXB-fK-S53" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="wGa-ds-dft"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="c0q-bT-kpE"/>
                     <connections>
-                        <outlet property="label" destination="WoX-EI-qgb" id="HdK-wJ-nZX"/>
                         <outlet property="pauseButton" destination="SWY-qI-9kv" id="9ag-Tf-hOy"/>
+                        <outlet property="progressBar" destination="EC9-9Q-ryb" id="7Fj-fX-x5g"/>
+                        <outlet property="progressDetails" destination="HXB-fK-S53" id="lJN-bb-eX3"/>
+                        <outlet property="speedDetails" destination="NE1-5Q-OTb" id="jL1-c8-yD5"/>
                         <outlet property="toolbar" destination="M7z-lc-b0O" id="0rp-NC-BcK"/>
                     </connections>
                 </viewController>
@@ -160,8 +182,10 @@ DL: 100KB/s</string>
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
                 <relationship kind="action" name="pauseOrResumeGame"/>
-                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="pauseButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="progressBar" candidateClass="UIProgressView"/>
+                <relationship kind="outlet" name="progressDetails" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="speedDetails" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
             </relationships>
         </class>
@@ -173,7 +197,7 @@ DL: 100KB/s</string>
             <relationships>
                 <relationship kind="outlet" name="name" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="progressBar" candidateClass="UIProgressView"/>
-                <relationship kind="outlet" name="progressDetails" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="speedDetails" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="ViewController" superclassName="UIViewController">
