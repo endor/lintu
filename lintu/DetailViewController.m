@@ -68,7 +68,14 @@
     } else {
         [self pauseButton].title = @"Resume";
     }
-    
+
+    [self status].text = @"";
+
+    if([[self torrent] isVerifying])
+    {
+        [self status].text = [[self torrent] getVerifyingDetails];
+    }
+
     [self speedDetails].text = [[self torrent] getSpeedDetails];
     [self progressDetails].text = [[self torrent] getProgressDetails];
     [self progressBar].progress = [[self torrent] getProgress];
@@ -95,5 +102,19 @@
         [self.rpc resumeTorrent:[self torrent] success:callback];
     }
 }
+
+- (IBAction)verify
+{
+    [self.rpc verifyTorrent:[self torrent] success:^(Torrent *torrent) {
+        self.torrent = torrent;
+        [self updateViewElements];
+    }];
+}
+
+- (IBAction)askForMorePeers
+{
+    [self.rpc reannounceTorrent:[self torrent]];
+}
+
 
 @end

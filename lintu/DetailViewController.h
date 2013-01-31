@@ -15,7 +15,10 @@
 @property(nonatomic, strong) IBOutlet UIProgressView *progressBar;
 @property(nonatomic, strong) IBOutlet UILabel *speedDetails;
 @property(nonatomic, strong) IBOutlet UILabel *progressDetails;
+@property(nonatomic, strong) IBOutlet UILabel *status;
 
 - (IBAction)pauseOrResumeGame;
+- (IBAction)verify;
+- (IBAction)askForMorePeers;
 
 @end

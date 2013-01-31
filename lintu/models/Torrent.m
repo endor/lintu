@@ -20,6 +20,7 @@
 @property(nonatomic) NSInteger rateDownload;
 @property(nonatomic) NSInteger rateUpload;
 @property(nonatomic) NSInteger downloadedEver;
+@property(nonatomic) float recheckProgress;
 
 @end
 
@@ -39,6 +40,7 @@
         self.downloadedEver = [[dict objectForKey:@"downloadedEver"] integerValue];
         self.rateUpload = [[dict objectForKey:@"rateUpload"] integerValue];
         self.rateDownload = [[dict objectForKey:@"rateDownload"] integerValue];
+        self.recheckProgress = [[dict objectForKey:@"recheckProgress"] floatValue];
     }
     
     return self;
@@ -46,7 +48,7 @@
 
 + (NSArray *)getFields
 {
-    return @[@"id", @"name", @"status", @"totalSize", @"sizeWhenDone", @"leftUntilDone", @"eta", @"uploadedEver", @"rateDownload", @"rateUpload", @"downloadedEver"];
+    return @[@"id", @"name", @"status", @"totalSize", @"sizeWhenDone", @"leftUntilDone", @"eta", @"uploadedEver", @"rateDownload", @"rateUpload", @"downloadedEver", @"recheckProgress"];
 }
 
 - (NSString *)getSpeedDetails
@@ -57,6 +59,16 @@
 - (NSString *)getProgressDetails
 {
     return [NSString stringWithFormat:@"Uploaded: %@\nDownloaded: %@", [Math formatBytes:[self uploadedEver]], [Math formatBytes:[self downloadedEver]]];
+}
+
+- (NSString *)getVerifyingDetails
+{
+    return [NSString stringWithFormat:@"Verifying %.02f %%", (float)([self recheckProgress] * 100)];
+}
+
+- (Boolean)isVerifying
+{
+    return ([self status] == 1 || [self status] == 2);
 }
 
 

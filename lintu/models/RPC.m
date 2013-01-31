@@ -13,9 +13,9 @@
 @interface RPC ()
 
 @property(nonatomic, assign) NSString *sessionId;
-- (void)makeRequest:(NSDictionary *)requestData success: (void (^)(NSDictionary *))success;
-- (void)getTorrents:(void (^)(NSArray *))success;
+
 @end
+
 
 @implementation RPC
 
@@ -43,24 +43,35 @@
     }];
 }
 
-- (void)pauseTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))pauseTorrentCallback
+- (void)updateTorrent:(Torrent *)torrent method:(NSString *)method success:(void (^)(Torrent *torrent))updateTorrentCallback
 {
-    NSDictionary *requestData = @{@"method": @"torrent-stop", @"arguments": @{@"ids": [NSNumber numberWithInteger:torrent.identifier]}};
+    NSDictionary *requestData = @{@"method": method, @"arguments": @{@"ids": [NSNumber numberWithInteger:torrent.identifier]}};
     [self makeRequest:requestData success:^(NSDictionary *JSON) {
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-            [self retrieveTorrent:torrent.identifier success:pauseTorrentCallback];
+            [self retrieveTorrent:torrent.identifier success:updateTorrentCallback];
         });
     }];
+
+}
+
+- (void)pauseTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))pauseTorrentCallback
+{
+    [self updateTorrent:torrent method:@"torrent-stop" success:pauseTorrentCallback];
 }
 
 - (void)resumeTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))resumeTorrentCallback
 {
-    NSDictionary *requestData = @{@"method": @"torrent-start", @"arguments": @{@"ids": [NSNumber numberWithInteger:torrent.identifier]}};
-    [self makeRequest:requestData success:^(NSDictionary *JSON) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-            [self retrieveTorrent:torrent.identifier success:resumeTorrentCallback];
-        });
-    }];
+    [self updateTorrent:torrent method:@"torrent-start" success:resumeTorrentCallback];
+}
+
+- (void)verifyTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))verifyTorrentCallback
+{
+    [self updateTorrent:torrent method:@"torrent-verify" success:verifyTorrentCallback];
+}
+
+- (void)reannounceTorrent:(Torrent *)torrent
+{
+    [self updateTorrent:torrent method:@"torrent-reannounce" success:(void (^)(Torrent *torrent))^{}];
 }
 
 - (void)retrieveTorrent:(NSInteger)identifier success:(void (^)(Torrent *torrent))retrieveTorrentCallback

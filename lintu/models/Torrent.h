@@ -15,6 +15,8 @@
 
 - (NSString *)getSpeedDetails;
 - (NSString *)getProgressDetails;
+- (NSString *)getVerifyingDetails;
+- (Boolean)isVerifying;
 - (float)getProgress;
 - (UIColor *)statusColor;
 - (id)init:(NSDictionary *)dict;
