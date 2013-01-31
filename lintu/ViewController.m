@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.rpc = [RPC sharedInstance];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -35,10 +36,7 @@
 {
     [super viewDidAppear:animated];
 
-    self.rpc = [[RPC alloc] init];
-   
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(getTorrents) userInfo:nil repeats:YES];
-    
+    [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(getTorrents) userInfo:nil repeats:YES];
 }
 
 - (void)getTorrents
@@ -73,19 +71,6 @@
     cell.progressBar.progressTintColor = [torrent statusColor];
     return cell;
 }
-
-#pragma mark -
-#pragma mark Table View Delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-
-//    DetailViewController* detail = [[DetailViewController alloc] initWithNibName:@"DetailView" bundle:[NSBundle mainBundle]];
-
-//	[self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"detailController"] animated:YES];
-        //[detail.name setText: [self.torrents objectAtIndex:indexPath.row]];
-}
-
 
 #pragma  mark - Segues
 

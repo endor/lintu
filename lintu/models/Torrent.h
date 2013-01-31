@@ -10,8 +10,8 @@
 
 @interface Torrent : NSObject
 
-@property(nonatomic) int identifier;
-@property(nonatomic, retain) NSString *name;
+@property(nonatomic) NSInteger identifier;
+@property(nonatomic) NSString *name;
 
 - (NSString *)getProgressDetails;
 - (float)getProgress;

@@ -7,7 +7,6 @@
 //
 
 #import "RPC.h"
-#import "Torrent.h"
 #import "AFJSONRequestOperation.h"
 #import "AFHTTPClient.h"
 
@@ -16,10 +15,19 @@
 @property(nonatomic, assign) NSString *sessionId;
 - (void)makeRequest:(NSDictionary *)requestData success: (void (^)(NSDictionary *))success;
 - (void)getTorrents:(void (^)(NSArray *))success;
-
 @end
 
 @implementation RPC
+
++ (RPC *)sharedInstance
+{
+    static RPC *sharedInstance;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        sharedInstance = [[self alloc] init];
+    });
+    return sharedInstance;
+}
 
 - (void)getTorrents:(void (^)(NSArray *))getTorrentsCallback
 {
@@ -32,6 +40,36 @@
             [torrents addObject:torrent];
         }
         getTorrentsCallback(torrents);
+    }];
+}
+
+- (void)pauseTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))pauseTorrentCallback
+{
+    NSDictionary *requestData = @{@"method": @"torrent-stop", @"arguments": @{@"ids": [NSNumber numberWithInteger:torrent.identifier]}};
+    [self makeRequest:requestData success:^(NSDictionary *JSON) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            [self retrieveTorrent:torrent.identifier success:pauseTorrentCallback];
+        });
+    }];
+}
+
+- (void)resumeTorrent:(Torrent *)torrent success:(void (^)(Torrent *torrent))resumeTorrentCallback
+{
+    NSDictionary *requestData = @{@"method": @"torrent-start", @"arguments": @{@"ids": [NSNumber numberWithInteger:torrent.identifier]}};
+    [self makeRequest:requestData success:^(NSDictionary *JSON) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            [self retrieveTorrent:torrent.identifier success:resumeTorrentCallback];
+        });
+    }];
+}
+
+- (void)retrieveTorrent:(NSInteger)identifier success:(void (^)(Torrent *torrent))retrieveTorrentCallback
+{
+    NSDictionary *requestData = @{@"method": @"torrent-get", @"arguments": @{@"fields": [Torrent getFields], @"ids": [NSNumber numberWithInteger:identifier]}};
+    [self makeRequest:requestData success:^(NSDictionary *JSON) {
+        NSArray *torrentData = JSON[@"arguments"][@"torrents"];
+        Torrent *torrent = [[Torrent alloc] init: torrentData[0]];
+        retrieveTorrentCallback(torrent);
     }];
 }
 

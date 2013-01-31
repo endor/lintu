@@ -7,12 +7,14 @@
 //
 
 #import "DetailViewController.h"
+#import "RPC.h"
 
 @interface DetailViewController ()
 
 @property(nonatomic, weak) IBOutlet UILabel* label;
 @property(nonatomic) IBOutlet UIToolbar *toolbar;
 @property(nonatomic) IBOutlet UIBarButtonItem *pauseButton;
+@property(nonatomic) RPC *rpc;
 
 @end
 
@@ -31,12 +33,17 @@
 {
     [super viewDidLoad];
     [self.label setText: self.torrent.name];
+    self.rpc = [RPC sharedInstance];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [self updateButtons];
+}
 
+- (void)updateButtons
+{
     if([[self torrent] isActive])
     {
         [self pauseButton].title = @"Pause";
@@ -49,6 +56,21 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)pauseOrResumeGame
+{
+    void (^callback)(Torrent *) = ^(Torrent *torrent) {
+        self.torrent = torrent;
+        [self updateButtons];
+    };
+    
+    if([[self torrent] isActive])
+    {
+        [self.rpc pauseTorrent:[self torrent] success:callback];
+    } else {
+        [self.rpc resumeTorrent:[self torrent] success:callback];
+    }
 }
 
 @end

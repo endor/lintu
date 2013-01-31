@@ -13,4 +13,6 @@
 
 @property(nonatomic, strong) Torrent* torrent;
 
+- (IBAction)pauseOrResumeGame;
+
 @end

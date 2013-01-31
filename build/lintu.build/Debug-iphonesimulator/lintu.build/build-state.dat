@@ -1,0 +1,637 @@
+Tlintu
+v5
+r1
+cCheck dependencies
+cSymLink /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+cProcessInfoPlistFile /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Info.plist lintu/lintu-Info.plist
+cProcessPCH /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.pth lintu/lintu-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.o /Users/fpro/Documents/sites/lintu/lintu/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.o /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.o /Users/fpro/Documents/sites/lintu/lintu/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.o /Users/fpro/Documents/sites/lintu/lintu/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.o /Users/fpro/Documents/sites/lintu/lintu/models/Torrent.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.o /Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.o /Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu normal i386
+cGenerateDSYMFile /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYM /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu
+cCopyStringsFile /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj/InfoPlist.strings lintu/en.lproj/InfoPlist.strings
+cCpResource lintu/Default.png Frank/frankified_build/./lintu.app/Default.png
+cCpResource lintu/Default@2x.png Frank/frankified_build/./lintu.app/Default@2x.png
+cCpResource lintu/Default-568h@2x.png Frank/frankified_build/./lintu.app/Default-568h@2x.png
+cCompileStoryboard /Users/fpro/Documents/sites/lintu/lintu/en.lproj/MainStoryboard.storyboard
+cTouch /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005100248F0000000000228FD0
+t1358963855
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005100249100000000003DCEF0
+t1358963857
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005100249000000000000015F7
+t1358963856
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510024930000000000000E8D
+t1358963859
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510024950000000000AB3D60
+t1358963861
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000510024A00000000000001B54
+t1358963872
+s6996
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Default.png
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Default@2x.png
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Info.plist
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/PkgInfo
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYM
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/lintu.LinkFileList
+c0000000051063A4600000000000007E9
+t1359362630
+s2025
+
+N/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m
+c0000000050FC4ED0000000000000C240
+t1358712528
+s49728
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.m
+c0000000050FC4ED00000000000003D89
+t1358712528
+s15753
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m
+c0000000050FC4ED000000000000024C2
+t1358712528
+s9410
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.m
+c0000000050FC4ED0000000000000163A
+t1358712528
+s5690
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m
+c0000000050FC4ED0000000000000134B
+t1358712528
+s4939
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.m
+c0000000050FC4ED00000000000001637
+t1358712528
+s5687
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m
+c0000000050FC4ED0000000000000682F
+t1358712528
+s26671
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m
+c0000000050FC4ED0000000000000192F
+t1358712528
+s6447
+
+N/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m
+c0000000050FC4ED000000000000018E3
+t1358712528
+s6371
+
+N/Users/fpro/Documents/sites/lintu/lintu/AppDelegate.m
+c00000000510106CB00000000000007DF
+t1359021771
+s2015
+
+N/Users/fpro/Documents/sites/lintu/lintu/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/fpro/Documents/sites/lintu/lintu/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/fpro/Documents/sites/lintu/lintu/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m
+c000000005105066A000000000000045E
+t1359283818
+s1118
+
+N/Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m
+c000000005102B22C0000000000000260
+t1359131180
+s608
+
+N/Users/fpro/Documents/sites/lintu/lintu/ViewController.m
+c000000005104EB160000000000000C83
+t1359276822
+s3203
+
+N/Users/fpro/Documents/sites/lintu/lintu/en.lproj/InfoPlist.strings
+c00000000510106CB000000000000002D
+t1359021771
+s45
+
+N/Users/fpro/Documents/sites/lintu/lintu/en.lproj/MainStoryboard.storyboard
+c00000000510504300000000000003C05
+t1359283248
+s15365
+
+N/Users/fpro/Documents/sites/lintu/lintu/lintu-Prefix.pch
+c00000000510106CB0000000000000139
+t1359021771
+s313
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/fpro/Documents/sites/lintu/lintu/main.m
+c00000000510106CB0000000000000158
+t1359021771
+s344
+
+N/Users/fpro/Documents/sites/lintu/lintu/models/RPC.m
+c000000005102561D00000000000008AB
+t1359107613
+s2219
+
+N/Users/fpro/Documents/sites/lintu/lintu/models/Torrent.m
+c000000005105062F0000000000000A73
+t1359283759
+s2675
+
+N/var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.pth
+t2
+s0
+
+Nlintu/lintu-Info.plist
+c00000000510106CB00000000000004D3
+t1359021771
+s1235
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies603a39c671b6b641^f10d4dc671b6b641^---0#1#0#--18"Check dependencies36"B1732062-146B-4196-8460-AD5009F0E97B-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.697698
+e381055431.028217
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m:25:
+o/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:83:6: warning: SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available. [-W#warnings]
+o    #warning SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.
+o     ^
+o/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:88:10: warning: MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available. [-W#warnings]
+o        #warning MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.
+o         ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m76e2b2c671b6b641^074507c771b6b641^-1029"In file included from /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m:25:/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:83:6: warning: SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available. [-W#warnings]    #warning SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.     ^/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:88:10: warning: MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available. [-W#warnings]        #warning MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.         ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@148"SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.-381055431#18446744073709551615#0#1(2@93"In file included from /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m:25:-381055431#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m0000000000000000^24#8#24#8#1192#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h0000000000000000^82#5#82#5#4878#0#18"#warning Directive--2@185"MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.-381055431#18446744073709551615#0#1(2@93"In file included from /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m:25:-381055431#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m0000000000000000^24#8#24#8#1192#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h0000000000000000^87#9#87#9#5112#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m0000000000000000^3616"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.o lintu/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPClient.o36"3B011E4C-17F5-4508-8C56-3E1AB5E6CECE-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.864170
+e381055431.001477
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.ma46cddc671b6b641^180802c771b6b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.m0000000000000000^3676"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.o lintu/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPRequestOperation.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFHTTPRequestOperation.o36"3A74A88D-E406-4EEA-9087-7DFB519EBC91-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.864147
+e381055430.943745
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m726cddc671b6b641^9ca8f1c671b6b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m0000000000000000^3682"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.o lintu/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFImageRequestOperation.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFImageRequestOperation.o36"E6BDBBE1-1091-4952-8DEA-94EE3B3F2C6A-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.697608
+e381055430.797461
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.ma2d4b2c671b6b641^c633ccc671b6b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.m0000000000000000^3676"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.o lintu/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFJSONRequestOperation.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFJSONRequestOperation.o36"92A9A850-C61A-4B71-BB72-419E00FC6A97-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.903158
+e381055430.956446
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m4da1e7c671b6b641^96e8f4c671b6b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^3742"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o lintu/AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o36"E9A9EF98-04D5-4C06-9B50-3943239BD607-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.945048
+e381055431.026004
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.me127f2c671b6b641^56b706c771b6b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.m0000000000000000^3724"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.o lintu/AFNetworking/AFPropertyListRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFPropertyListRequestOperation.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFPropertyListRequestOperation.o36"B50C5527-B8B9-4E7A-8BE8-79CA889F4191-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.957779
+e381055431.183871
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m056af5c671b6b641^a1122fc771b6b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m0000000000000000^3688"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.o lintu/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFURLConnectionOperation.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFURLConnectionOperation.o36"D8A7EA4D-CB03-4B67-BA4D-E55736035DDE-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055431.027367
+e381055431.106993
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m263607c771b6b641^2a731bc771b6b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m0000000000000000^3670"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.o lintu/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFXMLRequestOperation.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AFXMLRequestOperation.o36"29B9ECA0-69EE-4D14-A185-46CFF9A8535E-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.o /Users/fpro/Documents/sites/lintu/lintu/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.763255
+e381055430.862746
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.o
+x/Users/fpro/Documents/sites/lintu/lintu/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/fpro/Documents/sites/lintu/lintu/AppDelegate.mff97c3c671b6b641^93e5dcc671b6b641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AppDelegate.m0000000000000000^3584"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.o lintu/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.dia -c /Users/fpro/Documents/sites/lintu/lintu/AppDelegate.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/AppDelegate.o36"CFFBEAC9-8E78-4EAF-9DCE-F1E1987CFC2E-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.o /Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055431.108724
+e381055431.178828
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.o
+x/Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m240b1cc771b6b641^97c82dc771b6b641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m0000000000000000^3638"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.o lintu/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.dia -c /Users/fpro/Documents/sites/lintu/lintu/DetailViewController.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/DetailViewController.o36"1F383F3C-428F-4E64-8212-7EED3596A5BD-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.o /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.697632
+e381055430.791099
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.o
+x/Users/fpro/Documents/sites/lintu/lintu/models/RPC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m:12:
+o/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:83:6: warning: SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available. [-W#warnings]
+o    #warning SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.
+o     ^
+o/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:88:10: warning: MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available. [-W#warnings]
+o        #warning MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.
+o         ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m73dbb2c671b6b641^72a5cac671b6b641^-1014"In file included from /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m:12:/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:83:6: warning: SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available. [-W#warnings]    #warning SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.     ^/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h:88:10: warning: MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available. [-W#warnings]        #warning MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.         ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@148"SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.-381055430#18446744073709551615#0#1(2@78"In file included from /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m:12:-381055430#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@68"file://localhost/Users/fpro/Documents/sites/lintu/lintu/models/RPC.m0000000000000000^11#8#11#8#215#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h0000000000000000^82#5#82#5#4878#0#18"#warning Directive--2@185"MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.-381055430#18446744073709551615#0#1(2@78"In file included from /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m:12:-381055430#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file://localhost/Users/fpro/Documents/sites/lintu/lintu/models/RPC.m0000000000000000^11#8#11#8#215#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/AFHTTPClient.h0000000000000000^87#9#87#9#5112#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Users/fpro/Documents/sites/lintu/lintu/models/RPC.m0000000000000000^3550"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.o lintu/models/RPC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.dia -c /Users/fpro/Documents/sites/lintu/lintu/models/RPC.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/RPC.o36"A6D715CC-0FB4-4072-AA1E-0D92A6F05A5B-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.o /Users/fpro/Documents/sites/lintu/lintu/models/Torrent.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.800870
+e381055430.863172
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.o
+x/Users/fpro/Documents/sites/lintu/lintu/models/Torrent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/fpro/Documents/sites/lintu/lintu/models/Torrent.mea3dcdc671b6b641^5c01ddc671b6b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/fpro/Documents/sites/lintu/lintu/models/Torrent.m0000000000000000^3574"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.o lintu/models/Torrent.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.dia -c /Users/fpro/Documents/sites/lintu/lintu/models/Torrent.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/Torrent.o36"5E770682-E192-47EC-BBD2-949D1CE39E90-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.o /Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055431.029676
+e381055431.133489
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.o
+x/Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m07d007c771b6b641^672c22c771b6b641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m0000000000000000^3584"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.o lintu/TorrentCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.dia -c /Users/fpro/Documents/sites/lintu/lintu/TorrentCell.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/TorrentCell.o36"7908A9CE-003F-4494-B41F-EF36A0FFC1E3-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.o /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055431.028416
+e381055431.152396
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.o
+x/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m0c7607c771b6b641^6d0327c771b6b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m0000000000000000^3688"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.o lintu/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.dia -c /Users/fpro/Documents/sites/lintu/lintu/AFNetworking/UIImageView+AFNetworking.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/UIImageView+AFNetworking.o36"B130F7FB-D613-4F5A-B0D2-717EAAD00DED-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.o /Users/fpro/Documents/sites/lintu/lintu/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.792624
+e381055430.901871
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.o
+x/Users/fpro/Documents/sites/lintu/lintu/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/fpro/Documents/sites/lintu/lintu/ViewController.m:40:14: warning: unused variable 'timer' [-Wunused-variable]
+o    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(getTorrents) userInfo:nil repeats:YES];
+o             ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/fpro/Documents/sites/lintu/lintu/ViewController.m651ccbc671b6b641^55f9e6c671b6b641^-289"/Users/fpro/Documents/sites/lintu/lintu/ViewController.m:40:14: warning: unused variable 'timer' [-Wunused-variable]    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(getTorrents) userInfo:nil repeats:YES];             ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'timer'-381055430#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file://localhost/Users/fpro/Documents/sites/lintu/lintu/ViewController.m0000000000000000^39#13#39#13#860#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/fpro/Documents/sites/lintu/lintu/ViewController.m0000000000000000^3602"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.o lintu/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.dia -c /Users/fpro/Documents/sites/lintu/lintu/ViewController.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/ViewController.o36"AE924E45-5185-49D4-954A-8F4B6A23A5D7-
+
+CCompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.o /Users/fpro/Documents/sites/lintu/lintu/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.697617
+e381055430.761926
+r1
+xCompileC
+xbuild/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.o
+x/Users/fpro/Documents/sites/lintu/lintu/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/fpro/Documents/sites/lintu/lintu/main.m88d6b2c671b6b641^c70dc3c671b6b641^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Users/fpro/Documents/sites/lintu/lintu/main.m0000000000000000^3542"CompileC build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.o lintu/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -include /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.dia -c /Users/fpro/Documents/sites/lintu/lintu/main.m -o /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/main.o36"833F2BF8-3AF1-4DB8-827E-6795BBCF2897-
+
+CCompileStoryboard /Users/fpro/Documents/sites/lintu/lintu/en.lproj/MainStoryboard.storyboard
+s381055431.403536
+e381055433.085193
+r1
+xCompileStoryboard
+x/Users/fpro/Documents/sites/lintu/lintu/en.lproj/MainStoryboard.storyboard
+o2013-01-28 09:43:52.325 Interface Builder Cocoa Touch Tool[48322:f07] CFPreferences: user home directory at file://localhost/Users/fpro/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"CompileStoryboard lintu/en.lproj/MainStoryboard.storyboard906b67c771b6b641^ffcf15c971b6b641^-237"2013-01-28 09:43:52.325 Interface Builder Cocoa Touch Tool[48322:f07] CFPreferences: user home directory at file://localhost/Users/fpro/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/fpro/Documents/sites/lintu/lintu/en.lproj/MainStoryboard.storyboard0000000000000000^1091"CompileStoryboard lintu/en.lproj/MainStoryboard.storyboard    cd /Users/fpro/Documents/sites/lintu    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj/MainStoryboard.storyboardc /Users/fpro/Documents/sites/lintu/lintu/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"16C01B8A-E661-44C7-8162-0546525CC406-
+
+CCopyStringsFile /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj/InfoPlist.strings lintu/en.lproj/InfoPlist.strings
+s381055431.398539
+e381055431.402391
+r1
+xCopyStringsFile
+x/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj/InfoPlist.strings
+xlintu/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy lintu/en.lproj/InfoPlist.strings965b66c771b6b641^2a0367c771b6b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/fpro/Documents/sites/lintu/lintu/en.lproj/InfoPlist.strings0000000000000000^722"CopyStringsFile Frank/frankified_build/./lintu.app/en.lproj/InfoPlist.strings lintu/en.lproj/InfoPlist.strings    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/en.lproj -- lintu/en.lproj/InfoPlist.strings36"3B65E2FF-318E-4D77-A3F4-9668EFA5EA5B-
+
+CCpResource lintu/Default-568h@2x.png Frank/frankified_build/./lintu.app/Default-568h@2x.png
+s381055431.399682
+e381055431.405568
+r1
+xCpResource
+xlintu/Default-568h@2x.png
+xFrank/frankified_build/./lintu.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Frank/frankified_build/./lintu.app/Default-568h@2x.pnga86e66c771b6b641^91d367c771b6b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Default-568h@2x.png000000000080d041^746"CpResource "lintu/Default-568h@2x.png" "Frank/frankified_build/./lintu.app/Default-568h@2x.png"    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/fpro/Documents/sites/lintu/lintu/Default-568h@2x.png" /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app36"0B1973FA-B867-4647-BEFE-830B5EC8B4DE-
+
+CCpResource lintu/Default.png Frank/frankified_build/./lintu.app/Default.png
+s381055431.398628
+e381055431.403316
+r1
+xCpResource
+xlintu/Default.png
+xFrank/frankified_build/./lintu.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Frank/frankified_build/./lintu.app/Default.pngb35c66c771b6b641^924067c771b6b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Default.png000000000080d041^716"CpResource lintu/Default.png Frank/frankified_build/./lintu.app/Default.png    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fpro/Documents/sites/lintu/lintu/Default.png /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app36"E12653C9-4493-4386-97EA-9F1D739AD550-
+
+CCpResource lintu/Default@2x.png Frank/frankified_build/./lintu.app/Default@2x.png
+s381055431.399106
+e381055431.404406
+r1
+xCpResource
+xlintu/Default@2x.png
+xFrank/frankified_build/./lintu.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Frank/frankified_build/./lintu.app/Default@2x.png566266c771b6b641^6a8767c771b6b641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Default@2x.png000000000080d041^731"CpResource "lintu/Default@2x.png" "Frank/frankified_build/./lintu.app/Default@2x.png"    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/fpro/Documents/sites/lintu/lintu/Default@2x.png" /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app36"CA0B0486-5A12-412B-BC78-8DFA8714311E-
+
+CGenerateDSYMFile /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYM /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu
+s381055431.278649
+e381055431.390021
+r1
+xGenerateDSYMFile
+x/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYM
+x/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Generating /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYMf77647c771b6b641^6bd863c771b6b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYM000000000080d041^763"GenerateDSYMFile build/Debug-iphonesimulator/lintu.app.dSYM Frank/frankified_build/./lintu.app/lintu    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu -o /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app.dSYM36"6F0B80E3-9181-4846-9D4F-CF056F4BB932-
+
+CLd /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu normal i386
+s381055431.190501
+e381055431.271950
+r1
+xLd
+x/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Link /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintuf3e230c771b6b641^849e45c771b6b641^---0#0#0#--1408"Ld Frank/frankified_build/./lintu.app/lintu normal i386    cd /Users/fpro/Documents/sites/lintu    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -L/Users/fpro/Documents/sites/lintu/Frank -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator -filelist /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/Objects-normal/i386/lintu.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -framework CFNetwork -framework Security -lShelley -lCocoaHTTPServer -lFrank -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/lintu36"7F2A34CB-2963-4BFC-8729-01A3CE7E7BAF-
+
+CProcessInfoPlistFile /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Info.plist lintu/lintu-Info.plist
+s381055430.306681
+e381055430.313860
+r1
+xProcessInfoPlistFile
+x/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Info.plist
+xlintu/lintu-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process lintu/lintu-Info.plist73b84ec671b6b641^a27d50c671b6b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/fpro/Documents/sites/lintu/lintu/lintu-Info.plist0000000000000000^783"ProcessInfoPlistFile Frank/frankified_build/./lintu.app/Info.plist lintu/lintu-Info.plist    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility lintu/lintu-Info.plist -genpkginfo /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app/Info.plist36"6045621D-8EAE-4980-89B5-60DB3F3AC5FB-
+
+CProcessPCH /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.pth lintu/lintu-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381055430.324485
+e381055430.690545
+r1
+xProcessPCH
+x/var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.pth
+xlintu/lintu-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile lintu/lintu-Prefix.pchba2f53c671b6b641^3bc7b0c671b6b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/fpro/Documents/sites/lintu/lintu/lintu-Prefix.pch0000000000000000^3602"ProcessPCH /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.pth lintu/lintu-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fpro/Documents/sites/lintu    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-generated-files.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-own-target-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-all-target-headers.hmap -iquote /Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/lintu-project-headers.hmap -I/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources/i386 -I/Users/fpro/Documents/sites/lintu/build/lintu.build/Debug-iphonesimulator/lintu.build/DerivedSources -F/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.dia -c /Users/fpro/Documents/sites/lintu/lintu/lintu-Prefix.pch -o /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/c0/xs6w71j90cs27kzrxw3dhbbc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/lintu-Prefix-bhgszfnzkvgzywbekahaoglvyamz/lintu-Prefix.pch.d36"DEBFA810-D16D-40B0-961A-B2B7B9FF8D80-
+
+CSymLink /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+s381055430.306670
+e381055430.316795
+r1
+xSymLink
+x/Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app
+x/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Process /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app6abe4ec671b6b641^331a51c671b6b641^---0#0#0#--645"SymLink build/Debug-iphonesimulator/lintu.app Frank/frankified_build/./lintu.app    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /bin/ln -sf /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app /Users/fpro/Documents/sites/lintu/build/Debug-iphonesimulator/lintu.app36"2473356D-AFBF-49DA-BB02-328F3AA760BA-
+
+CTouch /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+s381055433.093232
+e381055433.098918
+r1
+xTouch
+x/Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.appaaf417c971b6b641^f45219c971b6b641^---0#0#0#--539"Touch Frank/frankified_build/./lintu.app    cd /Users/fpro/Documents/sites/lintu    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/gems/ruby-1.9.3-p374@global/bin:/Users/fpro/.rvm/rubies/ruby-1.9.3-p374/bin:/Users/fpro/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/fpro/Documents/sites/lintu/Frank/frankified_build/./lintu.app36"17FEE4BD-A1A2-41B2-AA8D-1FEF8B2ED4A0-
+

@@ -27,7 +27,7 @@
 - (id)init:(NSDictionary *)dict
 {
     if ([super init]) {
-        self.identifier = (int)dict[@"id"];
+        self.identifier = [dict[@"id"] integerValue];
         self.name = dict[@"name"];
         self.eta = dict[@"eta"];
         self.status = [[dict objectForKey:@"status"] integerValue];
