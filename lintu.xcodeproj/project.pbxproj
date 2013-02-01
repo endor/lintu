@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A7294BCA16BA9BA40086BD59 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = A7294BC916BA9BA40086BD59 /* Math.m */; };
-		A7294BCF16BAAF9D0086BD59 /* InfoFiles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7294BCB16BAAF9D0086BD59 /* InfoFiles@2x.png */; };
-		A7294BD016BAAF9D0086BD59 /* InfoGeneral@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7294BCC16BAAF9D0086BD59 /* InfoGeneral@2x.png */; };
-		A7294BD116BAAF9D0086BD59 /* InfoPeers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7294BCD16BAAF9D0086BD59 /* InfoPeers@2x.png */; };
-		A7294BD216BAAF9D0086BD59 /* InfoTracker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7294BCE16BAAF9D0086BD59 /* InfoTracker@2x.png */; };
 		A77D804916B13E4A0018BED1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D804816B13E4A0018BED1 /* UIKit.framework */; };
 		A77D804B16B13E4A0018BED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D804A16B13E4A0018BED1 /* Foundation.framework */; };
 		A77D804D16B13E4A0018BED1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D804C16B13E4A0018BED1 /* CoreGraphics.framework */; };
@@ -58,10 +54,6 @@
 /* Begin PBXFileReference section */
 		A7294BC816BA9BA40086BD59 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
 		A7294BC916BA9BA40086BD59 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
-		A7294BCB16BAAF9D0086BD59 /* InfoFiles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoFiles@2x.png"; sourceTree = "<group>"; };
-		A7294BCC16BAAF9D0086BD59 /* InfoGeneral@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoGeneral@2x.png"; sourceTree = "<group>"; };
-		A7294BCD16BAAF9D0086BD59 /* InfoPeers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoPeers@2x.png"; sourceTree = "<group>"; };
-		A7294BCE16BAAF9D0086BD59 /* InfoTracker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoTracker@2x.png"; sourceTree = "<group>"; };
 		A77D804416B13E4A0018BED1 /* lintu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77D804816B13E4A0018BED1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A77D804A16B13E4A0018BED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -171,10 +163,6 @@
 		A77D804F16B13E4B0018BED1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7294BCB16BAAF9D0086BD59 /* InfoFiles@2x.png */,
-				A7294BCC16BAAF9D0086BD59 /* InfoGeneral@2x.png */,
-				A7294BCD16BAAF9D0086BD59 /* InfoPeers@2x.png */,
-				A7294BCE16BAAF9D0086BD59 /* InfoTracker@2x.png */,
 				A77D805016B13E4B0018BED1 /* lintu-Info.plist */,
 				A77D805116B13E4B0018BED1 /* InfoPlist.strings */,
 				A77D805416B13E4B0018BED1 /* main.m */,
@@ -314,10 +302,6 @@
 				A77D805D16B13E4B0018BED1 /* Default@2x.png in Resources */,
 				A77D805F16B13E4B0018BED1 /* Default-568h@2x.png in Resources */,
 				A77D806216B13E4B0018BED1 /* MainStoryboard.storyboard in Resources */,
-				A7294BCF16BAAF9D0086BD59 /* InfoFiles@2x.png in Resources */,
-				A7294BD016BAAF9D0086BD59 /* InfoGeneral@2x.png in Resources */,
-				A7294BD116BAAF9D0086BD59 /* InfoPeers@2x.png in Resources */,
-				A7294BD216BAAF9D0086BD59 /* InfoTracker@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
