@@ -69,6 +69,12 @@
     cell.speedDetails.text = [torrent getSpeedDetails];
     cell.progressBar.progress = [torrent getProgress];
     cell.progressBar.progressTintColor = [torrent statusColor];
+    
+    if([torrent hasError])
+    {
+        cell.name.textColor = [UIColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:1.0];
+    }
+    
     return cell;
 }
 
@@ -76,18 +82,20 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-        NSInteger row = [self.torrentTableView indexPathForCell:sender].row;
+    NSInteger row = [self.torrentTableView indexPathForCell:sender].row;
 
-        if ([segue.destinationViewController isKindOfClass:[DetailViewController class]])
-        {
-                Torrent* torrent = self.torrents[row];
-                DetailViewController* dv = (DetailViewController*)segue.destinationViewController;
-                dv.torrent = torrent;
-        }
+    if ([segue.destinationViewController isKindOfClass:[DetailViewController class]])
+    {
+        Torrent* torrent = self.torrents[row];
+        DetailViewController* dv = (DetailViewController*)segue.destinationViewController;
+        dv.torrent = torrent;
+    }
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
         //add code here for when you hit delete
     }
 }

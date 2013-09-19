@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3103" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yqP-bY-V8K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yqP-bY-V8K">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -169,18 +169,30 @@ DL: 100KB/s</string>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwS-xQ-0fN">
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="0JT-zn-08p"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="HXB-fK-S53" firstAttribute="top" secondItem="NE1-5Q-OTb" secondAttribute="top" type="default" id="09a-lV-Prc"/>
-                                    <constraint firstItem="EC9-9Q-ryb" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="51" id="6rO-RU-Ga6"/>
                                     <constraint firstItem="NE1-5Q-OTb" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" type="default" id="7i4-5o-cZS"/>
+                                    <constraint firstAttribute="trailing" secondItem="lwS-xQ-0fN" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="BS5-Jk-1ez"/>
                                     <constraint firstItem="HXB-fK-S53" firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" type="default" id="BSk-Ng-hL2"/>
                                     <constraint firstItem="HXB-fK-S53" firstAttribute="baseline" secondItem="NE1-5Q-OTb" secondAttribute="baseline" type="default" id="KKe-ds-PKr"/>
                                     <constraint firstItem="EC9-9Q-ryb" firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" type="default" id="OP4-1H-tL5"/>
                                     <constraint firstItem="NE1-5Q-OTb" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="2" id="XPN-uz-jQe"/>
                                     <constraint firstItem="abT-b7-k6R" firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" type="default" id="aqM-aD-sEL"/>
                                     <constraint firstItem="EC9-9Q-ryb" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" type="default" id="ciQ-I7-CDV"/>
+                                    <constraint firstItem="lwS-xQ-0fN" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="e1U-58-EeY"/>
+                                    <constraint firstItem="lwS-xQ-0fN" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="87" id="ebS-63-Ndx"/>
+                                    <constraint firstItem="EC9-9Q-ryb" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="51" id="el7-5g-ETy"/>
                                     <constraint firstItem="abT-b7-k6R" firstAttribute="top" secondItem="EC9-9Q-ryb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="s7M-m8-PmA"/>
                                     <constraint firstItem="abT-b7-k6R" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" type="default" id="xZx-6F-bmP"/>
                                 </constraints>
@@ -215,6 +227,7 @@ DL: 100KB/s</string>
                     <navigationItem key="navigationItem" id="c0q-bT-kpE"/>
                     <connections>
                         <outlet property="askForMorePeersButton" destination="ogR-Yc-gIC" id="pjp-tK-xqN"/>
+                        <outlet property="errorMessage" destination="lwS-xQ-0fN" id="aba-Ch-xzS"/>
                         <outlet property="files" destination="91D-bR-4Da" id="hpV-IJ-826"/>
                         <outlet property="info" destination="OEj-GA-iYT" id="EKg-MZ-fx7"/>
                         <outlet property="pauseButton" destination="SWY-qI-9kv" id="9ag-Tf-hOy"/>
@@ -261,6 +274,7 @@ DL: 100KB/s</string>
                 <relationship kind="action" name="segmentSwitch"/>
                 <relationship kind="action" name="verify"/>
                 <relationship kind="outlet" name="askForMorePeersButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="errorMessage" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="files" candidateClass="UIView"/>
                 <relationship kind="outlet" name="info" candidateClass="UIView"/>
                 <relationship kind="outlet" name="pauseButton" candidateClass="UIBarButtonItem"/>

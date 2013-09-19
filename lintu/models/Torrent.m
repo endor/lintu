@@ -11,6 +11,8 @@
 
 @interface Torrent ()
 
+@property(nonatomic) NSInteger error;
+@property(nonatomic) NSString *errorString;
 @property(nonatomic) NSInteger status;
 @property(nonatomic) NSString *eta;
 @property(nonatomic) NSInteger totalSize;
@@ -30,6 +32,8 @@
 {
     if ([super init]) {
         self.identifier = [dict[@"id"] integerValue];
+        self.error = [dict[@"error"] integerValue];
+        self.errorString = dict[@"errorString"];
         self.name = dict[@"name"];
         self.eta = dict[@"eta"];
         self.status = [[dict objectForKey:@"status"] integerValue];
@@ -46,9 +50,19 @@
     return self;
 }
 
+- (NSString *)getErrorMessage
+{
+    return [self errorString];
+}
+
+- (Boolean)hasError
+{
+    return [self error] != 0;
+}
+
 + (NSArray *)getFields
 {
-    return @[@"id", @"name", @"status", @"totalSize", @"sizeWhenDone", @"leftUntilDone", @"eta", @"uploadedEver", @"rateDownload", @"rateUpload", @"downloadedEver", @"recheckProgress"];
+    return @[@"id", @"name", @"status", @"totalSize", @"sizeWhenDone", @"leftUntilDone", @"eta", @"uploadedEver", @"rateDownload", @"rateUpload", @"downloadedEver", @"recheckProgress", @"error", @"errorString"];
 }
 
 - (NSString *)getSpeedDetails

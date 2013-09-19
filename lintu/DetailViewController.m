@@ -15,6 +15,7 @@
 @property(nonatomic) IBOutlet UIBarButtonItem *pauseButton;
 @property(nonatomic) IBOutlet UIBarButtonItem *verifyButton;
 @property(nonatomic) IBOutlet UIBarButtonItem *askForMorePeersButton;
+@property(nonatomic) IBOutlet UITextView *errorMessage;
 @property(nonatomic) RPC *rpc;
 @property(nonatomic) NSTimer *timer;
 
@@ -88,6 +89,13 @@
     [self progressDetails].text = [[self torrent] getProgressDetails];
     [self progressBar].progress = [[self torrent] getProgress];
     [self progressBar].progressTintColor = [[self torrent] statusColor];
+    
+    if([[self torrent] hasError])
+    {
+        [self errorMessage].text = [[self torrent] getErrorMessage];
+    } else {
+        [self errorMessage].text = @"";
+    }
 }
 
 - (void)didReceiveMemoryWarning
