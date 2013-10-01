@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3ED5A9AA-D720-4832-BD55-DDFBE5AD3F38</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lintu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>98F4CE0D-0A55-4099-B7BD-BD8BC34187F1</key>
+		<string>http://uispec.googlecode.com/svn/trunk</string>
+		<key>EC1FD2DC-1CD4-4420-BEB8-13D2676F0FE8</key>
+		<string>ssh://github.com/endor/lintu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lintu.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>98F4CE0D-0A55-4099-B7BD-BD8BC34187F1</key>
+		<string>../../../uispec</string>
+		<key>EC1FD2DC-1CD4-4420-BEB8-13D2676F0FE8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>98F4CE0D-0A55-4099-B7BD-BD8BC34187F1</key>
+		<string>http://uispec.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/endor/lintu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC1FD2DC-1CD4-4420-BEB8-13D2676F0FE8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC1FD2DC-1CD4-4420-BEB8-13D2676F0FE8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lintu</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98F4CE0D-0A55-4099-B7BD-BD8BC34187F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>uispec</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -34,23 +34,6 @@
 		C51A948716B28E9900C16AA2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51A948616B28E9900C16AA2 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A77D80B916B678FA0018BED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A77D80B016B678F90018BED1 /* UISpec.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C76EB5D20F74586B00EF8398;
-			remoteInfo = UISpec;
-		};
-		A77D80BB16B678FA0018BED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A77D80B016B678F90018BED1 /* UISpec.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C7D4F29310BDA39C00B00019;
-			remoteInfo = Specs;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		A7294BC816BA9BA40086BD59 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
 		A7294BC916BA9BA40086BD59 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
@@ -95,7 +78,6 @@
 		A77D808916B177240018BED1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		A77D809716B19F180018BED1 /* TorrentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentCell.h; sourceTree = "<group>"; };
 		A77D809816B19F180018BED1 /* TorrentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentCell.m; sourceTree = "<group>"; };
-		A77D80B016B678F90018BED1 /* UISpec.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISpec.xcodeproj; path = ../uispec/xcode/UISpec/UISpec.xcodeproj; sourceTree = "<group>"; };
 		C51A948516B28E9900C16AA2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C51A948616B28E9900C16AA2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +99,6 @@
 		A77D803916B13E4A0018BED1 = {
 			isa = PBXGroup;
 			children = (
-				A77D80B016B678F90018BED1 /* UISpec.xcodeproj */,
 				A77D804E16B13E4A0018BED1 /* lintu */,
 				A77D804716B13E4A0018BED1 /* Frameworks */,
 				A77D804516B13E4A0018BED1 /* Products */,
@@ -214,15 +195,6 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		A77D80B116B678F90018BED1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A77D80BA16B678FA0018BED1 /* libUISpec.a */,
-				A77D80BC16B678FA0018BED1 /* Specs.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,35 +234,12 @@
 			mainGroup = A77D803916B13E4A0018BED1;
 			productRefGroup = A77D804516B13E4A0018BED1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A77D80B116B678F90018BED1 /* Products */;
-					ProjectRef = A77D80B016B678F90018BED1 /* UISpec.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A77D804316B13E4A0018BED1 /* lintu */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A77D80BA16B678FA0018BED1 /* libUISpec.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libUISpec.a;
-			remoteRef = A77D80B916B678FA0018BED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A77D80BC16B678FA0018BED1 /* Specs.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Specs.app;
-			remoteRef = A77D80BB16B678FA0018BED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A77D804216B13E4A0018BED1 /* Resources */ = {
