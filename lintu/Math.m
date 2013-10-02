@@ -42,7 +42,7 @@
     // The file is less than one KB
     else {
         size = bytes;
-        unit = @"bytes";
+        unit = @"B";
     }
 
     return [NSString stringWithFormat:@"%.02f %@", size, unit];

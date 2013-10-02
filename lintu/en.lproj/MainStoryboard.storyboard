@@ -21,15 +21,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="torrentCell" selectionStyle="blue" indentationWidth="10" reuseIdentifier="torrentCell" id="A1K-yH-GYi" customClass="TorrentCell">
+                                    <tableViewCell contentMode="center" restorationIdentifier="torrentCell" selectionStyle="blue" indentationWidth="10" reuseIdentifier="torrentCell" id="A1K-yH-GYi" customClass="TorrentCell">
                                         <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A1K-yH-GYi" id="kYP-4w-5SX">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcD-0b-kkx">
-                                                    <rect key="frame" x="11" y="2" width="194" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcD-0b-kkx">
+                                                    <rect key="frame" x="16" y="7" width="205" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="194" id="pNy-9D-QF3"/>
                                                     </constraints>
@@ -37,8 +37,11 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="80" translatesAutoresizingMaskIntoConstraints="NO" id="lQk-eV-53g">
-                                                    <rect key="frame" x="221" y="-8" width="80" height="47"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" ambiguous="YES" misplaced="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="87" translatesAutoresizingMaskIntoConstraints="NO" id="lQk-eV-53g">
+                                                    <rect key="frame" x="224" y="-5" width="87" height="51"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" none="YES" staticText="YES" updatesFrequently="YES"/>
+                                                    </accessibility>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="y6U-sC-K9m"/>
                                                         <constraint firstAttribute="height" constant="47" id="z1Z-f3-ElC"/>
@@ -49,21 +52,20 @@ DL: 100KB/s</string>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NGq-XL-d8P">
-                                                    <rect key="frame" x="11" y="31" width="289" height="2"/>
+                                                <progressView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NGq-XL-d8P">
+                                                    <rect key="frame" x="16" y="36" width="301" height="2"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="289" id="Y69-a2-OLB"/>
                                                     </constraints>
                                                 </progressView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" label="torrentCell">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstItem="NGq-XL-d8P" firstAttribute="leading" secondItem="VcD-0b-kkx" secondAttribute="leading" id="2DX-fX-L1r"/>
-                                            <constraint firstItem="lQk-eV-53g" firstAttribute="top" secondItem="A1K-yH-GYi" secondAttribute="top" constant="-8" id="CEH-0E-Jew"/>
-                                            <constraint firstAttribute="trailing" secondItem="NGq-XL-d8P" secondAttribute="trailing" constant="20" id="c9l-99-eEZ"/>
                                             <constraint firstItem="NGq-XL-d8P" firstAttribute="top" secondItem="VcD-0b-kkx" secondAttribute="bottom" constant="8" symbolic="YES" id="id5-7d-Klz"/>
-                                            <constraint firstItem="lQk-eV-53g" firstAttribute="leading" secondItem="A1K-yH-GYi" secondAttribute="leading" constant="221" id="rXM-hU-JsI"/>
-                                            <constraint firstItem="VcD-0b-kkx" firstAttribute="top" secondItem="A1K-yH-GYi" secondAttribute="top" constant="2" id="xpN-1z-8Al"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="name" destination="VcD-0b-kkx" id="ec3-lv-5FO"/>
@@ -154,11 +156,11 @@ DL: 100KB/s</string>
                                 <rect key="frame" x="20" y="58" width="280" height="452"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" restorationIdentifier="" translatesAutoresizingMaskIntoConstraints="NO" id="OEj-GA-iYT">
+                            <view contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="" translatesAutoresizingMaskIntoConstraints="NO" id="OEj-GA-iYT">
                                 <rect key="frame" x="20" y="69" width="280" height="447"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="161" translatesAutoresizingMaskIntoConstraints="NO" id="HXB-fK-S53">
-                                        <rect key="frame" x="119" y="-4" width="161" height="47"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" ambiguous="YES" misplaced="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="148" translatesAutoresizingMaskIntoConstraints="NO" id="HXB-fK-S53">
+                                        <rect key="frame" x="122" y="4" width="148" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="161" id="84P-iy-D4U"/>
                                         </constraints>
@@ -168,8 +170,8 @@ Downloaded: 100KB</string>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="112" translatesAutoresizingMaskIntoConstraints="NO" id="NE1-5Q-OTb">
-                                        <rect key="frame" x="0.0" y="-4" width="112" height="47"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="122" translatesAutoresizingMaskIntoConstraints="NO" id="NE1-5Q-OTb">
+                                        <rect key="frame" x="0.0" y="4" width="122" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="112" id="cdE-6L-We2"/>
                                             <constraint firstAttribute="height" constant="47" id="egC-t5-f2L"/>
@@ -180,11 +182,11 @@ DL: 100KB/s</string>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </label>
-                                    <progressView opaque="NO" contentMode="scaleToFill" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EC9-9Q-ryb">
-                                        <rect key="frame" x="0.0" y="45" width="280" height="2"/>
+                                    <progressView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EC9-9Q-ryb">
+                                        <rect key="frame" x="0.0" y="53" width="280" height="2"/>
                                     </progressView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Verifying..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abT-b7-k6R">
-                                        <rect key="frame" x="0.0" y="55" width="280" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Verifying..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abT-b7-k6R">
+                                        <rect key="frame" x="0.0" y="63" width="280" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="iMz-p7-abo"/>
                                         </constraints>
@@ -192,8 +194,8 @@ DL: 100KB/s</string>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lwS-xQ-0fN">
-                                        <rect key="frame" x="20" y="81" width="240" height="80"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lwS-xQ-0fN">
+                                        <rect key="frame" x="20" y="93" width="240" height="80"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="0JT-zn-08p"/>
@@ -206,26 +208,14 @@ DL: 100KB/s</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="HXB-fK-S53" firstAttribute="top" secondItem="NE1-5Q-OTb" secondAttribute="top" id="09a-lV-Prc"/>
-                                    <constraint firstItem="NE1-5Q-OTb" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" id="7i4-5o-cZS"/>
-                                    <constraint firstAttribute="trailing" secondItem="lwS-xQ-0fN" secondAttribute="trailing" constant="20" symbolic="YES" id="BS5-Jk-1ez"/>
-                                    <constraint firstItem="HXB-fK-S53" firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" id="BSk-Ng-hL2"/>
                                     <constraint firstItem="HXB-fK-S53" firstAttribute="baseline" secondItem="NE1-5Q-OTb" secondAttribute="baseline" id="KKe-ds-PKr"/>
-                                    <constraint firstItem="EC9-9Q-ryb" firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" id="OP4-1H-tL5"/>
-                                    <constraint firstItem="NE1-5Q-OTb" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="2" id="XPN-uz-jQe"/>
-                                    <constraint firstItem="abT-b7-k6R" firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" id="aqM-aD-sEL"/>
-                                    <constraint firstItem="EC9-9Q-ryb" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" id="ciQ-I7-CDV"/>
-                                    <constraint firstItem="lwS-xQ-0fN" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" constant="20" symbolic="YES" id="e1U-58-EeY"/>
-                                    <constraint firstItem="lwS-xQ-0fN" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="87" id="ebS-63-Ndx"/>
-                                    <constraint firstItem="EC9-9Q-ryb" firstAttribute="top" secondItem="OEj-GA-iYT" secondAttribute="top" constant="51" id="el7-5g-ETy"/>
                                     <constraint firstItem="abT-b7-k6R" firstAttribute="top" secondItem="EC9-9Q-ryb" secondAttribute="bottom" constant="8" symbolic="YES" id="s7M-m8-PmA"/>
-                                    <constraint firstItem="abT-b7-k6R" firstAttribute="leading" secondItem="OEj-GA-iYT" secondAttribute="leading" id="xZx-6F-bmP"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UHb-ZN-FPd" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" id="13T-5z-rQD"/>
-                            <constraint firstItem="OEj-GA-iYT" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" id="1pV-Cp-OZG"/>
                             <constraint firstItem="91D-bR-4Da" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" id="4nu-3d-JcO"/>
                             <constraint firstItem="TSL-2B-ekQ" firstAttribute="top" secondItem="mgh-9s-5LF" secondAttribute="top" constant="12" id="52d-en-SgO"/>
                             <constraint firstItem="91D-bR-4Da" firstAttribute="bottom" secondItem="G58-oA-nVa" secondAttribute="bottom" id="5na-Nf-qQI"/>
@@ -233,15 +223,12 @@ DL: 100KB/s</string>
                             <constraint firstAttribute="trailing" secondItem="TSL-2B-ekQ" secondAttribute="trailing" constant="20" symbolic="YES" id="AFV-3E-rvC"/>
                             <constraint firstAttribute="trailing" secondItem="UHb-ZN-FPd" secondAttribute="trailing" constant="20" symbolic="YES" id="AvR-0b-gEf"/>
                             <constraint firstItem="TSL-2B-ekQ" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" id="Ev7-Mz-boT"/>
-                            <constraint firstItem="OEj-GA-iYT" firstAttribute="top" secondItem="TSL-2B-ekQ" secondAttribute="bottom" constant="8" symbolic="YES" id="Iao-Ro-1Uc"/>
                             <constraint firstAttribute="trailing" secondItem="G58-oA-nVa" secondAttribute="trailing" constant="20" symbolic="YES" id="K40-EJ-qbb"/>
                             <constraint firstItem="91D-bR-4Da" firstAttribute="bottom" secondItem="UHb-ZN-FPd" secondAttribute="bottom" id="PjG-Zg-HfD"/>
                             <constraint firstItem="M7z-lc-b0O" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" id="Pu8-9D-bZi"/>
-                            <constraint firstAttribute="bottom" secondItem="OEj-GA-iYT" secondAttribute="bottom" constant="52" id="V1Y-bg-xl6"/>
                             <constraint firstItem="91D-bR-4Da" firstAttribute="centerY" secondItem="mgh-9s-5LF" secondAttribute="centerY" id="gWX-al-n9T"/>
                             <constraint firstItem="91D-bR-4Da" firstAttribute="top" secondItem="UHb-ZN-FPd" secondAttribute="top" id="lel-1f-lBt"/>
                             <constraint firstItem="G58-oA-nVa" firstAttribute="leading" secondItem="mgh-9s-5LF" secondAttribute="leading" constant="20" symbolic="YES" id="pQU-ii-mIQ"/>
-                            <constraint firstAttribute="trailing" secondItem="OEj-GA-iYT" secondAttribute="trailing" constant="20" symbolic="YES" id="qWn-gw-CjB"/>
                             <constraint firstItem="M7z-lc-b0O" firstAttribute="trailing" secondItem="mgh-9s-5LF" secondAttribute="trailing" id="qzY-PC-rdO"/>
                             <constraint firstItem="M7z-lc-b0O" firstAttribute="bottom" secondItem="mgh-9s-5LF" secondAttribute="bottom" id="slj-YY-W6m"/>
                             <constraint firstAttribute="trailing" secondItem="91D-bR-4Da" secondAttribute="trailing" constant="20" symbolic="YES" id="vgT-4H-N4Q"/>
