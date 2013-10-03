@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>lintu copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>lintu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A77D804316B13E4A0018BED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A78F1C8C17FD66950075E2BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

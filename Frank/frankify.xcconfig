@@ -4,3 +4,5 @@ FRANK_CORE_LDFLAGS = -all_load -ObjC -framework CFNetwork -framework Security -l
 FRANK_CORE_MAC_LDFLAGS = -all_load -ObjC -framework CFNetwork -framework Security -lShelleyMac -lCocoaAsyncSocketMac -lCocoaLumberjackMac -lCocoaHTTPServerMac -lFrankMac
 
 FRANK_CORE_GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = FRANKIFIED
+
+TESTING = 1

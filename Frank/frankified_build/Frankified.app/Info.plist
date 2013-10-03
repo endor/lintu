@@ -7,13 +7,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>Frankified</string>
 	<key>CFBundleExecutable</key>
-	<string>lintu</string>
+	<string>lintu frankified</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.futurice.lintu.frankified</string>
+	<string>com.futurice.lintu-frankified.frankified</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>lintu</string>
+	<string>lintu frankified</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

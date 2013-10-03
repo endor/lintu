@@ -9,6 +9,7 @@
 #import "RPC.h"
 #import "AFJSONRequestOperation.h"
 #import "AFHTTPClient.h"
+#import "../Constants.h"
 
 @interface RPC ()
 
@@ -86,7 +87,7 @@
 
 - (void)makeRequest:(NSDictionary *)requestData success:(void (^)(NSDictionary *))makeRequestCallback
 {
-    NSURL *url = [NSURL URLWithString:@"http://localhost:9091/"];
+    NSURL *url = [NSURL URLWithString:BaseURL];
     AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:url];
     [httpClient setParameterEncoding:AFJSONParameterEncoding];
     NSMutableURLRequest *request = [httpClient requestWithMethod:@"POST"
@@ -95,6 +96,7 @@
     [request setValue:self.sessionId forHTTPHeaderField:@"X-Transmission-Session-Id"];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, NSDictionary *JSON) {
+        NSLog(@"%@", JSON);
         makeRequestCallback(JSON);
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error , id JSON) {
         self.sessionId = [response allHeaderFields][@"X-Transmission-Session-Id"];

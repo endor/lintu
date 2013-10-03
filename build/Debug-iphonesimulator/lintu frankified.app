@@ -1,0 +1,1 @@
+/Users/fpro/Documents/sites/lintu/Frank/frankified_build/lintu frankified.app

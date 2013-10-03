@@ -13,7 +13,6 @@
 #import "TorrentCell.h"
 #import "DetailViewController.h"
 
-
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property(nonatomic, retain) NSArray *torrents;
